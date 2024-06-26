@@ -34,7 +34,7 @@ const answers = ref(new Array(questionair.length).fill(null));
 onMounted(() => {
     updateScore();
     document.body.addEventListener('click', updateScore);
-    document.body.addEventListener('click', () => setTimeout(() => updateScore(), 200));
+    document.body.addEventListener('click', () => setTimeout(() => updateScore(), 50));
 })
 </script>
 
