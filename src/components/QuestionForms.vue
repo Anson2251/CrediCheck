@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import questionair from '@/assets/questionaire.json';
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 
 import {
     NCard,
@@ -9,6 +9,14 @@ import {
 } from "naive-ui";
 
 console.log(questionair);
+
+const score = ref(0);
+
+function updateScore() {
+    score.value = answers.value.reduce((a, b) => a + b || 0, 0);
+    console.log(score.value);
+    (window as any).questionairScore = score.value;
+}
 
 interface Option {
     label: string;
@@ -22,6 +30,11 @@ interface Question {
 
 const question = ref<Question[]>(questionair);
 const answers = ref(new Array(questionair.length).fill(null));
+
+onMounted(() => {
+    updateScore();
+    document.body.addEventListener('click', updateScore);
+})
 </script>
 
 <template>
@@ -33,7 +46,7 @@ const answers = ref(new Array(questionair.length).fill(null));
         </n-radio-group>
     </n-card>
     <n-card title="Result">
-        {{ answers.reduce((a, b) => a + b || 0, 0) }}
+        {{ `Score: ${score}` }}
     </n-card>
 </template>
 
