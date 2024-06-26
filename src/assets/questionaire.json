@@ -1,0 +1,234 @@
+[
+  {
+    "question": "Educational Background",
+    "options": [
+      {
+        "label": "Bachelor's Degree",
+        "mark": 1
+      },
+      {
+        "label": "Master's Degree",
+        "mark": 2
+      },
+      {
+        "label": "PhD",
+        "mark": 3
+      },
+      {
+        "label": "Related Job Experience",
+        "mark": 1.5
+      }
+    ]
+  },
+  {
+    "question": "Reputation",
+    "options": [
+      {
+        "label": "Published 1 article/books",
+        "mark": 1
+      },
+      {
+        "label": "Published 2 articles/books",
+        "mark": 2
+      },
+      {
+        "label": "Published 3 articles/books",
+        "mark": 3
+      },
+      {
+        "label": "Published 4 articles/books",
+        "mark": 4
+      },
+      {
+        "label": "Published 5 or more articles/books",
+        "mark": 5
+      }
+    ]
+  },
+  {
+    "question": "Consistency and facts",
+    "options": [
+      {
+        "label": "Contain 5 or less than 5 facts",
+        "mark": 1
+      },
+      {
+        "label": "Contain 5-10 facts",
+        "mark": 2
+      },
+      {
+        "label": "Contain 11-15 facts",
+        "mark": 3
+      },
+      {
+        "label": "Contain 16-20 facts",
+        "mark": 4
+      },
+      {
+        "label": "Contain more than 20 facts",
+        "mark": 5
+      }
+    ]
+  },
+  {
+    "question": "Racist content?",
+    "options": [
+      {
+        "label": "Racist content",
+        "mark": -5
+      }
+    ]
+  },
+  {
+    "question": "Discuss on sides",
+    "options": [
+      {
+        "label": "Discuss on both sides",
+        "mark": 1
+      },
+      {
+        "label": "Discuss on multiple sides",
+        "mark": 2
+      }
+    ]
+  },
+  {
+    "question": "Last update time?",
+    "options": [
+      {
+        "label": "Within 7 days",
+        "mark": 5
+      },
+      {
+        "label": "Within 1 month",
+        "mark": 4
+      },
+      {
+        "label": "Within 3 months",
+        "mark": 3
+      },
+      {
+        "label": "Within a year",
+        "mark": 2
+      },
+      {
+        "label": "A year ago but no more than 3 years",
+        "mark": 1
+      }
+    ]
+  },
+  {
+    "question": "Any typo?",
+    "options": [
+      {
+        "label": "Yes",
+        "mark": -1
+      },
+      {
+        "label": "No",
+        "mark": 1
+      }
+    ]
+  },
+  {
+    "question": "Any grammar issue?",
+    "options": [
+      {
+        "label": "Yes",
+        "mark": -1
+      },
+      {
+        "label": "No",
+        "mark": 1
+      }
+    ]
+  },
+  {
+    "question": "Domain of website",
+    "options": [
+      {
+        "label": ".gov/.edu",
+        "mark": 5
+      },
+      {
+        "label": ".net/.org",
+        "mark": 3
+      },
+      {
+        "label": "other all except .cc",
+        "mark": 1
+      }
+    ]
+  },
+  {
+    "question": "Views",
+    "options": [
+      {
+        "label": "more than 100k",
+        "mark": 5
+      },
+      {
+        "label": "Less than 50k",
+        "mark": 4
+      },
+      {
+        "label": "Less than 10k",
+        "mark": 3
+      },
+      {
+        "label": "Less than 5000",
+        "mark": 2
+      },
+      {
+        "label": "More than 1000 but less than 5000",
+        "mark": 1
+      }
+    ]
+  },
+  {
+    "question": "Publication rate",
+    "options": [
+      {
+        "label": "5",
+        "mark": 5
+      },
+      {
+        "label": "4",
+        "mark": 4
+      },
+      {
+        "label": "3",
+        "mark": 3
+      },
+      {
+        "label": "2",
+        "mark": 2
+      },
+      {
+        "label": "1",
+        "mark": 1
+      },
+      {
+        "label": "No rating , N/A",
+        "mark": 0
+      }
+    ]
+  },
+  {
+    "question": "Website design",
+    "options": [
+      {
+        "label": "Adapt to mobile and PC",
+        "mark": 2
+      },
+      {
+        "label": "Adapt to one of mobile or PC",
+        "mark": 1
+      },
+      {
+        "label": "chaotic website design",
+        "mark": -1
+      }
+    ]
+  }
+]
